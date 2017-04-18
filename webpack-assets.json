@@ -1,8 +1,8 @@
 {
   "main": {
-    "js": "main.bundle.js"
+    "js": "main.63664782220f94b4f381.bundle.js"
   },
   "polyfills": {
-    "js": "polyfills.bundle.js"
+    "js": "polyfills.a6a5135cdddd6d7636aa.bundle.js"
   }
 }
