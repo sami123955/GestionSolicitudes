@@ -40,6 +40,9 @@
 
 <!--<link rel="stylesheet" href="https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css">-->
 
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Century%20Gothic">
+
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 
 
@@ -66,9 +69,15 @@
 <script src="//cdn.datatables.net/buttons/1.2.4/js/buttons.html5.min.js"></script>
 <script src="//cdn.datatables.net/buttons/1.2.4/js/buttons.print.min.js"></script>
 
+<link rel="stylesheet" href="assets/css/sweet-alert/sweetalert.css">
+<script src="assets/css/sweet-alert/sweetalert.min.js"></script>
 
 
-<script type="text/javascript" src="polyfills.a6a5135cdddd6d7636aa.bundle.js" defer></script><script type="text/javascript" src="main.c2c37aefeeabb5ea381a.bundle.js" defer></script></head>
+
+<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>-->
+
+<script type="text/javascript" src="polyfills.a6a5135cdddd6d7636aa.bundle.js" defer></script><script type="text/javascript" src="main.903df0b06dd863934762.bundle.js" defer></script></head>
 
 <body>
 
@@ -91,6 +100,50 @@
 <style>
   body {
     /*background-image: url('assets/img/wallpaper_blue_grey-640x480.jpg');*/
+  }
+
+  .ic-datepicker-header-bar {
+
+    background-color: #337ab7 !important;
+
+  }
+
+  .cell.selected {
+      background-color: #337ab7 !important;
+  }
+
+  
+  .ic-datepicker-header-bar:hover {
+
+    background-color: grey !important;
+
+  }
+
+  .cell.selected:hover {
+      background-color: grey !important;
+  }
+
+  .ic-datepicker-container .ic-datepicker .ic-datepicker-header-bar .header-title:not(.year-title):hover, .ic-datepicker-container .ic-datepicker .ic-datepicker-header-bar .cell.action:hover {
+      background-color: grey !important;
+  }
+
+  .ic-datepicker .date.today:not(.selected), .ic-datepicker .date.this-year:not(.selected){
+
+    color: #337ab7 !important;
+
+  }
+
+  .MenuItem{
+
+    font-size: 1em;
+    color: black !important;
+
+  }
+
+  .MenuSubItem{
+
+    font-size: 1.3em;
+
   }
 </style>
 

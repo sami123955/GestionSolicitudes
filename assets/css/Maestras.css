@@ -128,3 +128,20 @@
     width: 100%;
 
 }
+
+.ic-datepicker-header-bar {
+
+    background-color: #337ab7 !important;
+
+}
+
+.cell.selected {
+    background-color: #337ab7 !important;
+}
+
+
+.Tabla {
+
+    /*padding: 20%;*/
+
+}
