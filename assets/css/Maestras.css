@@ -145,3 +145,9 @@
     /*padding: 20%;*/
 
 }
+
+.paginate_button{
+
+    background: #337ab7 !important;
+    color: #fff;
+}
